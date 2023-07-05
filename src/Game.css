@@ -1,0 +1,27 @@
+.game-container {
+    text-align: center;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .tile {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+  }
+  
+  .moves-left {
+    margin-top: 10px;
+  }
+  
+  /* Add any additional styling as needed */
+  
